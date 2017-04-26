@@ -2,9 +2,10 @@
   "name": "ebenezerjs",
   "version": "0.1.0",
   "description": "Localizar lugares peligrosos",
-  "main": "index.js",
+  "main": "dist/src/ebenezer.js",
   "scripts": {
-    
+    "build": "babel src/ebenezer.js -d dist",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/fredcess23/ebenezer/issues"
   },
-  "homepage": "https://github.com/fredcess23/ebenezer#readme"
+  "homepage": "https://github.com/fredcess23/ebenezer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
 }

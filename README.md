@@ -1,17 +1,16 @@
 # Ebenezer
-
-Ebenezer is an API to detect dangerous places around cities where there is violance like: assaults and others. 
+Order elements based on merge sort algorithm
 
 ## Instalation
 ```
-npm install platzon
+npm install ebenezer
 ```
 
 ### Usage
 ```
 import ebenezer from 'ebenezer'
 
-queryPlace("Country","State","City") // returns an array
+ebenezer(["12", "1", "10"]) // returns a sorted array
 ```
 
 ### Credits
